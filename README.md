@@ -21,7 +21,7 @@ The above mentioned PyTorch data is created using: <code>Pyg_data_creator_for_cl
 
 
 # Explainability
-We elucidate the structure-odour relationship using Intergrated Gradients on the molecular graphs. We have explained for the model that is using graphs featurized by <code>DMPNNFeaturizer()</code> and LDM data, for a given SMILE and odor label.The code can be a found in this <code>Dense_Sense_Explainability_g1.ipynb</code> notebook.
+We attempt to elucidate the structure-odour relationship using Intergrated Gradients on the molecular graphs. We have explained for the model that is using graphs featurized by <code>DMPNNFeaturizer()</code> and LDM data, for a given SMILE and odor label.The code can be a found in this <code>Dense_Sense_Explainability_g1.ipynb</code> notebook.
 
 # Figures
 All the figures used in the paper are available in the [figures](https://github.com/CSIO-FPIL/generative-odor/tree/main/figures) folder. 
