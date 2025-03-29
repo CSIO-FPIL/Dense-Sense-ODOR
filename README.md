@@ -9,7 +9,7 @@ Creating environment:
 <br><code>conda create --name my_env --file requirements.txt</code></br>
 
 # Dataset for Training
-The data files that are used for training are as follows:
+The data files that are used for training are as follows:<br>
 <code>DMPNNpruned_without hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv</code> : file contains the data for the so and so for the so and so..... <br>
 <code>curated_GS_LF_merged_4983.csv</code> : This contains the SMILE and thier........<br>
 <code>DMPNNpruned_graph_data_cleaned.npz</code> : so and so...<br>
