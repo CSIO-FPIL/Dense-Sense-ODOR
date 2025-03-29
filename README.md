@@ -8,15 +8,12 @@
 Creating environment:
 <br><code>conda create --name my_env --file requirements.txt</code></br>
 
-# Data
-The folder [data](https://github.com/CSIO-FPIL/generative-odor/tree/main/data) contains the results of different statistical tests on the distribution of generated molecules, organized by model in sub-folders named [ARGA](https://github.com/CSIO-FPIL/generative-odor/tree/main/data/ARGA), [ARGVA](https://github.com/CSIO-FPIL/generative-odor/tree/main/data/ARGVA), [diffusion](https://github.com/CSIO-FPIL/generative-odor/tree/main/data/Diffusion), [GAE](https://github.com/CSIO-FPIL/generative-odor/tree/main/data/GAE), [Transformer](https://github.com/CSIO-FPIL/generative-odor/tree/main/data/Transformer), and [VGAE](https://github.com/CSIO-FPIL/generative-odor/tree/main/data/VGAE). Each of these model folders includes <code>GDB Criteria</code>, <code>KS_test</code>, and <code>rule of three</code>.
-
 # Dataset for Training
 The data files that are used for training are as follows:
-<code>DMPNNpruned_without hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv</code> : file contains the data for the so and so for the so and so.....
-<code>curated_GS_LF_merged_4983.csv</code> : This contains the SMILE and thier........
-<code>DMPNNpruned_graph_data_cleaned.npz</code> : so and so...
-<code>graph_data_cleaned.npz</code> : so and soo..  
+<code>DMPNNpruned_without hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv</code> : file contains the data for the so and so for the so and so..... <br>
+<code>curated_GS_LF_merged_4983.csv</code> : This contains the SMILE and thier........<br>
+<code>DMPNNpruned_graph_data_cleaned.npz</code> : so and so...<br>
+<code>graph_data_cleaned.npz</code> : so and soo..  <br>
 
 The above mentioned PyTorch data is created using: <code>Pyg_data_creator_for_cleaned.ipynb</code>.
 
