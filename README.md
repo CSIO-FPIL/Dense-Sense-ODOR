@@ -1,7 +1,13 @@
 #  DENSE SENSE: A novel approach utilizing an electron density augmented machine learning paradigm to understand a complex odour landscape
 
 
-<div align="justify"> In this work we synergistically combine Quantum Mechanics(QM)
+<div align="justify"> Till date there is only one crystal structure of human odour receptor deposited in PDB
+(8F76), which has been obtained via cryo- EM. The dearth of crystal structure limits
+structure based analysis of odour receptors, this forces us to look into direction of ligand
+based ML approaches which can be used for predicting odorant properties for molecules
+thus providing us an insight into the world of olfaction. At present the current state
+of art model given by Lee et al which is graph neural networks ensemble has score
+(5 fold CV) 0.89.In this work we synergistically combine Quantum Mechanics(QM)
 with graph neural networks to get an improved model. Our findings underscore the
 possibility of this methodology in predicting odour perception directly from QM data,
 offering a novel approach in the Machine learning space to understand olfaction. </div>
