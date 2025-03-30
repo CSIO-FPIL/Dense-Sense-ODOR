@@ -25,7 +25,7 @@ Creating environment:
 The data files that are used for training are as follows:<br>
 [DMPNNpruned_without hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/DMPNNpruned_without%20hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv) <br>
 [curated_GS_LF_merged_4983.csv](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/curated_GS_LF_merged_4983.csv) <br>
-[graph_data_cleaned.npz](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/DMPNNpruned_graph_data_cleaned.npz) <br>
+[DMPNNpruned_graph_data_cleaned.npz](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/DMPNNpruned_graph_data_cleaned.npz) <br>
 [graph_data_cleaned.npz](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/graph_data_cleaned.npz)  <br>
 
 The above mentioned PyTorch data is created using: <code>Pyg_data_creator_for_cleaned.ipynb</code>.
