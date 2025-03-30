@@ -45,9 +45,6 @@ highlight the functional group as the odourgenic region of the molecule.
 Our explainability analysis indeed found this to be true. We took the functional group
 odor labels that our model was able to successfully predict (AUROC per label score >0.8). The code can be a found in this <code>Dense_Sense_Explainability_g1.ipynb</code> notebook.</div>
 
-# Figures
-All the figures used in the paper are available in the [figures](https://github.com/CSIO-FPIL/generative-odor/tree/main/figures) folder. 
-
 # Contributors
 **Pinaki Saha**, University of Hertfordshire, UH Biocomputation Group, United Kingdom <br>
 **Mrityunjay Sharma**, CSIR-CSIO, Chandigarh, India                
