@@ -31,7 +31,25 @@ The data files that are used for training are as follows:<br>
 The above mentioned PyTorch data is created using: <code>Pyg_data_creator_for_cleaned.ipynb</code>.
 
 # Models
+<div align="justify"> We utilized various architecture of Graph neural
+networks: message passing neural networks (MPNN), directed message passing neural net
+(DMPNN) and graph convolutional neural networks (GCN). <br>
 
+The results of the QNN model are impressive on this challenging odour label classification task given the fact that only electron localization and delocalization data was provided to the QNN model. DMPNN +LDM model gives us best results amongst all the GNN by achieving a validation score of 0.871 and is competitive with openPOM . <br>
+
+We then employed an ensemble approach to combine graph neural networks for improved performance. We first explored combining DMPNN models, as they demonstrated the best results. We tested ensemble of 10 and 30 DMPNNs and aggregated their result by averaging out their predictions. AUROC metric was used to evaluate the model performance. We tested two cases where we varied random seeds and one without random seed variation. <br>
+
+The notebooks for the 5 Fold Cross Validation for the above models are as follows:
+* [DMPNN+LDM](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/5CV_DMPNN_LDM_40_epochs.ipynb)
+* [GCN+LDM](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/5CV_GCN_LDM_40_epochs.ipynb)
+* [MPNNN+LDM](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/5CV_POM_40_epochs.ipynb)
+* [openPOM](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/5CV_POM_40_epochs.ipynb)
+
+The notebooks for the ensemble of models are as follows:
+* [Homogenous Bagging of GCN+MPNN+DMPNN with Random Seed = 42](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/bagging/gcn_pom_dmpnn_ensemble_homogenous_bagging%20_42.ipynb)
+* [Homogenous Bagging of GCN+MPNN+DMPNN with Random Seed = 1](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/bagging/gcn_pom_dmpnn_ensemble_homogenous_bagging_1.ipynb)
+* [10 DPMNNs](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/DMPNN_LDM_ensemble_homogenous_bagging_10.ipynb)
+* [30 DMPNNs](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/DMPNN_LDM_ensemble_homogenous_bagging_30.ipynb)
 
 # Explainability
 
