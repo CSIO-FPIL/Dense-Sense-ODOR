@@ -34,8 +34,7 @@ The above mentioned PyTorch data is created using: <code>Pyg_data_creator_for_cl
 
 
 # Explainability
-<div align="justify">We attempt to elucidate the structure-odour relationship using Intergrated Gradients on the molecular graphs. We have explained for the model that is using DMPNN graph featurizedr <code>DMPNNFeaturizer()</code> and LDM data, for a given SMILE and odor label.The best way to validate explainability was by utilizing explainability analysis for com-
-pounds with functional group-based odor labels, i.e., ketonic, phenolic, etc. This is because
+<div align="justify">We attempt to elucidate the structure-odour relationship using Intergrated Gradients on the molecular graphs. We have explained for the model that is using DMPNN graph featurizedr <code>DMPNNFeaturizer()</code> and LDM data, for a given SMILE and odor label.The best way to validate explainability was by utilizing explainability analysis for compounds with functional group-based odor labels, i.e., ketonic, phenolic, etc. This is because
 explainability for such odor labels is straightforward: the functional group is the part of
 the molecule responsible for its odorous property. The explainability analysis must then
 highlight the functional group as the odourgenic region of the molecule.
