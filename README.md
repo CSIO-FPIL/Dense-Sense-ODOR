@@ -1,6 +1,7 @@
 #  DENSE SENSE: A Novel Approach Utilizing an Electron Density Augmented Machine Learning Paradigm to Understand a Complex Odour Landscape
 
-  ![Representation of QNN framework](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/30_ensemble_models/qnn.png)
+
+<img width="1058" alt="pheno_final1" src="https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/30_ensemble_models/qnn.png" /> <br>
 
 <div align="justify"> Till date there is only one crystal structure of human odour receptor deposited in PDB
 (8F76), which has been obtained via cryo- EM. The dearth of crystal structure limits
@@ -53,7 +54,7 @@ The notebooks for the ensemble of models are as follows:
 
 ## Explainability
 
-<img width="858" alt="pheno_final1" src="https://github.com/user-attachments/assets/2c33c155-7466-49c1-9ef0-217dc52945bf" /> <br>
+<img width="1058" alt="pheno_final1" src="https://github.com/user-attachments/assets/2c33c155-7466-49c1-9ef0-217dc52945bf" /> <br>
 
 
 <div align="justify">We attempt to elucidate the structure-odour relationship using Intergrated Gradients on the molecular graphs. We have explained for the model that is using DMPNN graph featurizer <code>DMPNNFeaturizer()</code> and LDM data, for a given SMILE and odour label.The best way to validate explainability was by utilizing explainability analysis for compounds with functional group-based odour labels, i.e., ketonic, phenolic, etc. This is because
