@@ -1,6 +1,7 @@
 #  DENSE SENSE: A novel approach utilizing an electron density augmented machine learning paradigm to understand a complex odour landscape
-![Representation of QNN framework](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/30_ensemble_models/qnn.png)
-
+<p align="center">
+  ![Representation of QNN framework](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/30_ensemble_models/qnn.png)
+</p>
 <div align="justify"> Till date there is only one crystal structure of human odour receptor deposited in PDB
 (8F76), which has been obtained via cryo- EM. The dearth of crystal structure limits
 structure based analysis of odour receptors, this forces us to look into direction of ligand
@@ -22,10 +23,11 @@ Creating environment:
 
 
 The data files that are used for training are as follows:<br>
-<code>DMPNNpruned_without hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv</code> : file contains the data for the so and so for the so and so..... <br>
-<code>curated_GS_LF_merged_4983.csv</code> : This contains the SMILE and thier........<br>
-<code>DMPNNpruned_graph_data_cleaned.npz</code> : so and so...<br>
-<code>graph_data_cleaned.npz</code> : so and soo..  <br>
+[>DMPNNpruned_without hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv]
+(https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/DMPNNpruned_without%20hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv) <br>
+[curated_GS_LF_merged_4983.csv](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/curated_GS_LF_merged_4983.csv) <br>
+[graph_data_cleaned.npz](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/DMPNNpruned_graph_data_cleaned.npz) <br>
+[graph_data_cleaned.npz] (https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/graph_data_cleaned.npz)
 
 The above mentioned PyTorch data is created using: <code>Pyg_data_creator_for_cleaned.ipynb</code>.
 
