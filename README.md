@@ -1,8 +1,12 @@
 #  DENSE SENSE: A novel approach utilizing an electron density augmented machine learning paradigm to understand a complex odour landscape
 
-<div align="justify"> We introduce a suite of generative modelling techniques to efficiently navigate and explore the complex landscapes of odor and the broader chemical space. The whole process involves four key stages: molecule generation, stringent sanitization checks for molecular validity, fragrance likeliness screening and odor prediction of the generated molecules. </div>
 
-<br> The website developed for this work is available at [Exploring Fragrance Space using Generative Models](https://kumars8494.github.io/Exploring_Fragrance_Space_with_Generative_model/)</br>
+<div align="justify"> In this work we synergistically combine Quantum Mechanics(QM)
+with graph neural networks to get an improved model. Our findings underscore the
+possibility of this methodology in predicting odour perception directly from QM data,
+offering a novel approach in the Machine learning space to understand olfaction. </div>
+
+
 
 # Getting started
 Creating environment:
@@ -21,7 +25,13 @@ The above mentioned PyTorch data is created using: <code>Pyg_data_creator_for_cl
 
 
 # Explainability
-We attempt to elucidate the structure-odour relationship using Intergrated Gradients on the molecular graphs. We have explained for the model that is using graphs featurized by <code>DMPNNFeaturizer()</code> and LDM data, for a given SMILE and odor label.The code can be a found in this <code>Dense_Sense_Explainability_g1.ipynb</code> notebook.
+We attempt to elucidate the structure-odour relationship using Intergrated Gradients on the molecular graphs. We have explained for the model that is using DMPNN graph featurizedr <code>DMPNNFeaturizer()</code> and LDM data, for a given SMILE and odor label.The best way to validate explainability was by utilizing explainability analysis for com-
+pounds with functional group-based odor labels, i.e., ketonic, phenolic, etc. This is because
+explainability for such odor labels is straightforward: the functional group is the part of
+the molecule responsible for its odorous property. The explainability analysis must then
+highlight the functional group as the odourgenic region of the molecule.
+Our explainability analysis indeed found this to be true. We took the functional group
+odor labels that our model was able to successfully predict (AUROC per label score >0.8). The code can be a found in this <code>Dense_Sense_Explainability_g1.ipynb</code> notebook.
 
 # Figures
 All the figures used in the paper are available in the [figures](https://github.com/CSIO-FPIL/generative-odor/tree/main/figures) folder. 
