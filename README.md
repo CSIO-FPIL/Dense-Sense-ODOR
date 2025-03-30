@@ -15,11 +15,11 @@ offering a novel approach in the Machine learning space to understand olfaction.
 
 
 
-# Getting started
+## Getting started
 Creating environment:
 <br><code>conda create --name my_env --file requirements.txt</code></br>
 
-# Dataset for Training
+## Dataset for Training
 
 
 The data files that are used for training are as follows:<br>
@@ -30,7 +30,7 @@ The data files that are used for training are as follows:<br>
 
 The above mentioned PyTorch data is created using: <code>Pyg_data_creator_for_cleaned.ipynb</code>.
 
-# Models
+## Models
 <div align="justify"> We utilized various architecture of Graph neural
 networks: message passing neural networks (MPNN), directed message passing neural net
 (DMPNN) and graph convolutional neural networks (GCN). <br>
@@ -51,7 +51,7 @@ The notebooks for the ensemble of models are as follows:
 * [10 DPMNNs](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/DMPNN_LDM_ensemble_homogenous_bagging_10.ipynb)
 * [30 DMPNNs](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/DMPNN_LDM_ensemble_homogenous_bagging_30.ipynb)
 
-# Explainability
+## Explainability
 
 <img width="858" alt="pheno_final1" src="https://github.com/user-attachments/assets/2c33c155-7466-49c1-9ef0-217dc52945bf" /> <br>
 
@@ -66,7 +66,7 @@ odor labels that our model was able to successfully predict (AUROC per label sco
  
 The code is available in this [Dense_Sense_Explainability_g1.ipynb](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/Dense_Sense_Explainability_g1.ipynb) notebook.</div>
 
-# Contributors
+## Contributors
 **Pinaki Saha**, University of Hertfordshire, UH Biocomputation Group, United Kingdom <br>
 **Mrityunjay Sharma**, CSIR-CSIO, Chandigarh, India                
 **Sarabeshwar Balaji**, Indian Institute of Science Education and Research Bhopal(IISERB), India <br>
