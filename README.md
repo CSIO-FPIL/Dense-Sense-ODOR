@@ -19,6 +19,8 @@ Creating environment:
 <br><code>conda create --name my_env --file requirements.txt</code></br>
 
 # Dataset for Training
+
+![Representation of QNN framework](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/30_ensemble_models/qnn.png)
 The data files that are used for training are as follows:<br>
 <code>DMPNNpruned_without hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv</code> : file contains the data for the so and so for the so and so..... <br>
 <code>curated_GS_LF_merged_4983.csv</code> : This contains the SMILE and thier........<br>
@@ -31,13 +33,13 @@ The above mentioned PyTorch data is created using: <code>Pyg_data_creator_for_cl
 
 
 # Explainability
-We attempt to elucidate the structure-odour relationship using Intergrated Gradients on the molecular graphs. We have explained for the model that is using DMPNN graph featurizedr <code>DMPNNFeaturizer()</code> and LDM data, for a given SMILE and odor label.The best way to validate explainability was by utilizing explainability analysis for com-
+<div align="justify">We attempt to elucidate the structure-odour relationship using Intergrated Gradients on the molecular graphs. We have explained for the model that is using DMPNN graph featurizedr <code>DMPNNFeaturizer()</code> and LDM data, for a given SMILE and odor label.The best way to validate explainability was by utilizing explainability analysis for com-
 pounds with functional group-based odor labels, i.e., ketonic, phenolic, etc. This is because
 explainability for such odor labels is straightforward: the functional group is the part of
 the molecule responsible for its odorous property. The explainability analysis must then
 highlight the functional group as the odourgenic region of the molecule.
 Our explainability analysis indeed found this to be true. We took the functional group
-odor labels that our model was able to successfully predict (AUROC per label score >0.8). The code can be a found in this <code>Dense_Sense_Explainability_g1.ipynb</code> notebook.
+odor labels that our model was able to successfully predict (AUROC per label score >0.8). The code can be a found in this <code>Dense_Sense_Explainability_g1.ipynb</code> notebook.</div>
 
 # Figures
 All the figures used in the paper are available in the [figures](https://github.com/CSIO-FPIL/generative-odor/tree/main/figures) folder. 
