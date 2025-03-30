@@ -49,7 +49,7 @@ All the figures used in the paper are available in the [figures](https://github.
 **Pinaki Saha**, University of Hertfordshire, UH Biocomputation Group, United Kingdom <br>
 **Mrityunjay Sharma**, CSIR-CSIO, Chandigarh, India                
 **Sarabeshwar Balaji**, Indian Institute of Science Education and Research Bhopal(IISERB), India <br>
-**Aryan Amit Barsainyan**, National Institute of Technology Karnataka Surathkal, Karnataka, India<b
-**Ritesh Kumar**, CSIR-CSIO, Chandigarh, India
+**Aryan Amit Barsainyan**, National Institute of Technology Karnataka Surathkal, Karnataka, India<br>
+**Ritesh Kumar**, CSIR-CSIO, Chandigarh, India<br>
 **Volker Steuber**, University of Hertfordshire, UH Biocomputation Group, United Kingdom <br>
 **Michael Schmuker**, Helmholtz-Gemienschaft, Berlin, Germany <br>
