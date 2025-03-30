@@ -61,7 +61,10 @@ explainability for such odor labels is straightforward: the functional group is 
 the molecule responsible for its odorous property. The explainability analysis must then
 highlight the functional group as the odourgenic region of the molecule.
 Our explainability analysis indeed found this to be true. We took the functional group
-odor labels that our model was able to successfully predict (AUROC per label score >0.8). The code can be a found in this <code>Dense_Sense_Explainability_g1.ipynb</code> notebook.</div>
+odor labels that our model was able to successfully predict (AUROC per label score > 0.8). <br>
+
+ 
+The code is available in this [Dense_Sense_Explainability_g1.ipynb](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/Dense_Sense_Explainability_g1.ipynb) notebook.</div>
 
 # Contributors
 **Pinaki Saha**, University of Hertfordshire, UH Biocomputation Group, United Kingdom <br>
