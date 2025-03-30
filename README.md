@@ -1,5 +1,5 @@
 #  DENSE SENSE: A novel approach utilizing an electron density augmented machine learning paradigm to understand a complex odour landscape
-
+![Representation of QNN framework](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/30_ensemble_models/qnn.png)
 
 <div align="justify"> Till date there is only one crystal structure of human odour receptor deposited in PDB
 (8F76), which has been obtained via cryo- EM. The dearth of crystal structure limits
@@ -20,7 +20,7 @@ Creating environment:
 
 # Dataset for Training
 
-![Representation of QNN framework](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/30_ensemble_models/qnn.png)
+
 The data files that are used for training are as follows:<br>
 <code>DMPNNpruned_without hydrogen_curated_GS_LF_merged_4812_QM_cleaned.csv</code> : file contains the data for the so and so for the so and so..... <br>
 <code>curated_GS_LF_merged_4983.csv</code> : This contains the SMILE and thier........<br>
