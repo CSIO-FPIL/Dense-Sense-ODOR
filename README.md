@@ -42,7 +42,7 @@ We then employed an ensemble approach to combine graph neural networks for impro
 The notebooks for the 5 Fold Cross Validation for the above models are as follows:
 * [DMPNN+LDM](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/5CV_DMPNN_LDM_40_epochs.ipynb)
 * [GCN+LDM](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/5CV_GCN_LDM_40_epochs.ipynb)
-* [MPNNN+LDM](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/5CV_POM_40_epochs.ipynb)
+* [MPNNN+LDM](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/5CV_LDM_POM_40_epoch.ipynb)
 * [openPOM](https://github.com/CSIO-FPIL/Dense-Sense-ODOR/blob/main/5CV_POM_40_epochs.ipynb)
 
 The notebooks for the ensemble of models are as follows:
