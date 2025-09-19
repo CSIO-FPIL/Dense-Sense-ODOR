@@ -75,3 +75,14 @@ The code is available in this [Dense_Sense_Explainability_g1.ipynb](https://gith
 **Ritesh Kumar**, CSIR-CSIO, Chandigarh, India<br>
 **Volker Steuber**, University of Hertfordshire, UH Biocomputation Group, United Kingdom <br>
 **Michael Schmuker**, Helmholtz-Gemienschaft, Berlin, Germany <br>
+
+# Citing This Work
+To cite this work, please use this bibtex entry:<br>
+
+```bash
+@article{saha2025dense,
+  title={DENSE SENSE: A novel approach utilizing an electron density augmented machine learning paradigm to understand a complex odour landscape},
+  author={Saha, Pinaki and Sharma, Mrityunjay and Balaji, Sarabeshwar and Barsainyan, Aryan Amit and Kumar, Ritesh and Steuber, Volker and Schmuker, Michael},
+  year={2025}
+}
+```
