@@ -80,9 +80,16 @@ The code is available in this [Dense_Sense_Explainability_g1.ipynb](https://gith
 To cite this work, please use this bibtex entry:<br>
 
 ```bash
-@article{saha2025dense,
-  title={DENSE SENSE: A novel approach utilizing an electron density augmented machine learning paradigm to understand a complex odour landscape},
-  author={Saha, Pinaki and Sharma, Mrityunjay and Balaji, Sarabeshwar and Barsainyan, Aryan Amit and Kumar, Ritesh and Steuber, Volker and Schmuker, Michael},
-  year={2025}
-}
+@Article{D5DD00224A,
+author ="Saha, Pinaki and Sharma, Mrityunjay and Balaji, Sarabeshwar and Barsainyan, Aryan Amit and Kumar, Ritesh and Steuber, Volker and Schmuker, Michael",
+title  ="Dense Sense: a novel approach utilizing electron density augmented machine learning paradigm to understand the complex odour landscape",
+journal  ="Digital Discovery",
+year  ="2025",
+volume  ="4",
+issue  ="11",
+pages  ="3339-3350",
+publisher  ="RSC",
+doi  ="10.1039/D5DD00224A",
+url  ="http://dx.doi.org/10.1039/D5DD00224A",
+abstract  ="Olfaction is a complex process where multiple nasal receptors interact to detect specific odorant molecules. Elucidating structure–activity-relationships for odorants and their receptors remains difficult since crystallization of the odor receptors is an extremely difficult process. Therefore{,} ligand-based approaches that leverage machine learning remain the state of the art for predicting odorant properties for molecules{,} such as the graph neural network approach used by Lee et al. In this paper we explored how information from quantum mechanics (QM) could synergistically improve the results obtained with the graph neural network. Our findings underscore the possibility of this methodology in predicting odor perception directly from QM data{,} offering a novel approach in the machine learning space to understand olfaction."}
 ```
